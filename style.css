@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #800;
+    padding: 1rem;
+    border-bottom: 1px dashed #800;
+}
