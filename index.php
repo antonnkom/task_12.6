@@ -11,13 +11,30 @@
     <header></header>
 
     <main>
-        <section>
-            <pre><?php print_r(getPartsFromFullname('аль-Хорезми Мухаммад ибн-Муса')); ?></pre>
-            <pre><?= getFullnameFromParts('аль-Хорезми', 'Мухаммад', 'ибн-Муса') ?></pre>
-            <pre><?= getShortName('да Винчи Леонардо ибн-Муса') ?></pre>
-            <pre><?= getGenderFromName('КОМАров АНТОН оЛЕГОВич') ?></pre>
-            <pre><?= getGenderDescription($examplePersonsArray) ?></pre>
-            <pre><?= getPerfectPartner('КОМАров', 'АНТОН', 'оЛЕГОВич', $examplePersonsArray) ?></pre>
+        <section id="examples">
+            <div>
+                <pre><?php print_r(getPartsFromFullname('аль-Хорезми Мухаммад ибн-Муса')); ?></pre>
+            </div>
+
+            <div>
+                <pre><?= getFullnameFromParts('аль-Хорезми', 'Мухаммад', 'ибн-Муса') ?></pre>
+            </div>
+
+            <div>
+                <pre><?= getShortName('да Винчи Леонардо ибн-Муса') ?></pre>
+            </div>
+
+            <div>
+                <pre><?= getGenderFromName('КОМАров АНТОН оЛЕГОВич') ?></pre>
+            </div>
+
+            <div>
+                <pre><?= getGenderDescription($examplePersonsArray) ?></pre>
+            </div>
+
+            <div>
+                <pre><?= getPerfectPartner('КОМАров', 'АНТОН', 'оЛЕГОВич', $examplePersonsArray) ?></pre>
+            </div>
         </section>
     </main>
     

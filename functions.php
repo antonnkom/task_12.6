@@ -233,12 +233,12 @@ function getGenderDescription(array $personsArray) : string
     $percentFemale = number_format((float)$percentFemale, 1, '.', '');
     $percentUndefined = number_format((float)$percentUndefined, 1, '.', '');
 
-    return <<<RESULT
+    return <<<HERERESULT
     <h3>Гендерный состав аудитории:</h3>
     Мужчины - $percentMale%
     Женщины - $percentFemale%
     Не удалось определить - $percentUndefined%
-    RESULT;
+    HERERESULT;
 }
 
 /**
