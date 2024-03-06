@@ -1,7 +1,5 @@
 <?php
-$partsOfName = ['аль', 'бен', 'бин', 'д', 'да', 'де', 'делла', 'дель', 'ди', 'ибн', 'фон', 'эль',];
-
-$examplePersonsArray = [
+$example_persons_array = [
     [
         'fullname' => 'Иванов Иван Иванович',
         'job' => 'tester',
