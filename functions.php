@@ -83,7 +83,6 @@ function getShortName(string $fullname) : string
  */
 function getGenderFromName(string $fullname) : int
 {
-    global $partsOfName;
     $arr = getPartsFromFullname($fullname);
     $gender = 0;
 
